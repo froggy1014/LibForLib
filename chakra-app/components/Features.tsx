@@ -1,6 +1,6 @@
 import { HStack, Icon, Text, StackProps, Box } from '@chakra-ui/react';
-import React from 'react';
-import { ShieldIcon, ClipIcon, RewindIcon } from '../public/icons/Icon';
+import React, { ElementType } from 'react';
+import { ShieldIcon } from '../public/icons/Icon';
 
 interface FeatureProps extends StackProps {
   icon: ElementType;
